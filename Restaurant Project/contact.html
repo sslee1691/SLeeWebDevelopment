@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!--
+    Name: Shemesh lee
+    Date Created: 9/24/2018
+    Most recent revision:
+-->
+<html lang="en">
+<head>
+    <title>Contact US</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" text="text/css" href="restaurantStyles.css" />
+    <style>
+
+      label {font-weight: bold;
+      }
+
+      a:link {
+        color: black;
+      }
+
+      a:visited {
+        color: blue;
+      }
+
+      a:hover {
+        font-weight: bold;
+      }
+
+  </style>
+</head>
+<body class="container">
+    <header>
+        <center><h1>Rural Kitchen</h1></center>
+    </header>
+
+    <nav>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link" href="home.html">
+                    <i class="fas fa-home"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link  active" href="contact.html">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <form class="needs-validation" novalidate>
+                <div class="form-row">
+                    <div class="col-md-12 mb-3">
+                        <label for="validationCustom01">Name:</label>
+                        <input type="text" class="form-control" id="validationCustom01" placeholder="Name" required>
+                        <div class="valid-feedback">
+                            Thank You!
+                        </div>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                        <label for="validationCustom02">Email:</label>
+                        <input type="email" class="form-control" id="validationCustom02" placeholder="Email" required>
+                        <div class="valid-feedback">
+                            Thank You!
+                        </div>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                        <label for="validationCustom03">Phone:</label>
+                        <input type="tel" class="form-control" id="validationCustom03" placeholder="Phone" required>
+                        <div class="valid-feedback">
+                            Thank You!
+                        </div>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                        <label for="validationCustom04">Reason For Inquiry:</label>
+                        <select id="contact" class="custom-select" name="contact" required>
+                            <option value="">Select an option</option>
+                            <option value="default">Catering</option>
+                            <option value="Party">Private Party</option>
+                            <option value="Feedback">Feedback</option>
+                            <option value="Other">Other</option>
+                        </select>
+                        <div class="valid-feedback">
+                            Thank You!
+                        </div>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                        <label for="validationCustom05">Additional Information:</label>
+                        <textarea type="text" class="form-control" id="validationCustom05" required></textarea>
+                        <div class="valid-feedback">
+                            Thank You!
+                        </div>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                        <label>Have you been to the restaurant?</label>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" id="customControlValidation2" name="radio-stacked" required>
+                            <label class="custom-control-label" for="customControlValidation2">Yes</label>
+                        </div>
+                        <div class="custom-control custom-radio mb-3">
+                            <input type="radio" class="custom-control-input" id="customControlValidation3" name="radio-stacked" required>
+                            <label class="custom-control-label" for="customControlValidation3">No</label>
+                            <div class="valid-feedback">Thank You!</div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                        <div class="form-group">
+                            <div class="form-check">
+                                <label>Best days to contact you:</label>
+                                <input type="checkbox" name="interest" value="frontEnd" required />
+                                <label for="frontEnd">M</label>
+                                <input type="checkbox" name="interest" value="backEnd" required />
+                                <label for="backEnd">T</label>
+                                <input type="checkbox" name="interest" value="database" required />
+                                <label for="database">W</label>
+                                <input type="checkbox" name="interest" value="database" required />
+                                <label for="database">Th</label>
+                                <input type="checkbox" name="interest" value="database" required />
+                                <label for="database">F</label>
+                                <div class="valid-feedback">
+                                    Thank You!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-primary" type="submit">Submit form</button>
+        </form>
+        </div>
+    </div>
+
+    <footer>
+        <hr />
+        <div class="row">
+            <div class="col-md-12">
+                <center>
+                    <p>123 Wallaby Way, Charlotte, NC, 12345</p>
+                    <p>(123) 456-7890</p>
+                </center>
+            </div>
+        </div>
+        <hr />
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
+
+<noscript>JavaScript may be disabled. Please enable JavaScript to view web page. Thank you!</noscript>
+
+  <script>
+        (function () {
+            'use strict';
+            window.addEventListener('load', function () {
+                var forms = document.getElementsByClassName('needs-validation');
+                var validation = Array.prototype.filter.call(forms, function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+</body>
+
+</html>
